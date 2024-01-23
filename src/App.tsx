@@ -3,6 +3,7 @@ import UseStateHook from "./hooks/UseStateHook";
 import DemoComponent from "./DemoComponent";
 import UseEffectHook from "./hooks/UseEffectHook";
 import UseMemoHook from "./hooks/UseMemoHook";
+import UseCallbackHook from "./hooks/UseCallbackHook";
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
 
       {/* <UseStateHook /> */}
       {/* <UseEffectHook /> */}
-      <UseMemoHook />
+      {/* <UseMemoHook /> */}
+
+      <UseCallbackHook />
     </div>
   );
 }
