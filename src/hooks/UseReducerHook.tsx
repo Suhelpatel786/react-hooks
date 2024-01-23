@@ -60,6 +60,12 @@ const UseReducerHook = () => {
       <p style={{ fontSize: "35px" }}>
         {state.showText && "Hello There! How are you?"}
       </p>
+
+      <br />
+      <br />
+      <a href="https://react.dev/reference/react/useReducer" target="_blank">
+        More Info..
+      </a>
     </div>
   );
 };
